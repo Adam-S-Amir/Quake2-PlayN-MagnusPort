@@ -16,18 +16,21 @@ For the more avid readers, here is a more indepth look at the additions Magnus m
 
 > Magnus created download.js.
 
-> Magnus created PlayNQuake folder adding the following:
-- E635C924D74AFB6527B814C542FC5B1C.cache.html (correcting audio issues, setting initial spawn map, enabling save and load states).
+> Magnus added the following:
+- E635C924D74AFB6527B814C542FC5B1C.cache.html.
 - PlayNQuake.nocache.js.
+- PlayNQuake.js (correcting audio issues, setting initial spawn map, enabling save and load states).
 
 > Magnus edited original HTML file.
 
 > Magnus has done the following with the Quake2.EXE file:
+- Changed it from .EXE to .ZIP
+  - Compresses better, runs faster, don't need 20+ year old software
+  - Ngl the most difficult part of this was getting the .EXE small enough to fit on my website.
 - Deleted all unnecessary files.
 - Added Quake 2 game assets.
 - Edited config file to better suit usage hosted on a website.
 - Deleted .pak1 and .pak2 files.
-  - Ngl the most difficult part of this was getting the .EXE small enough to fit on my website.
 
 *Here are some other things Magnus would like to add to this project:*
 
