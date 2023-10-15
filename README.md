@@ -4,7 +4,7 @@ Partial credit goes to the original source port creators: https://github.com/ste
 
 Welcome to the home of the worlds first FULL VERSION of Quake II running on the web! This, unlike every other port, runs the PC files, and isn't an emulation of Quake II for the N64. 
 
-This project was first started by Stefan Haustein and worked for a little while until at some point in time it broke. Later Magnus fixed it, and since that moment, Magnus wasn't able to figure out how to make a full port.
+This project was first started by Stefan Haustein and worked for a little while until at some point in time it broke. Later Magnus Marks (my xbox name lol) fixed it, and since that moment, Magnus wasn't able to figure out how to make a full port.
 
 One morning, on 12/21/2022 @ 12pm Magnus had an itch.He dug deeper and deeper into this seemingly endless rabbit hole. Most of his work had nothing to do with code, it was simply getting the files in order. Thus the birth of the PlayN-Quake-II-Magnus-Port.
 
