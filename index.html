@@ -2,54 +2,11 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <title>Quake II</title>
-  <style>
-    ::-webkit-scrollbar {
-      width: 0;
-      background: transparent;
-    }
-
-    body {
-      background-color: #000;
-      color: #ddd;
-      border: 0;
-      margin: 0;
-    }
-
-    #splash {
-      color: #ddd;
-      border: 0;
-      margin: 20px;
-      padding: 0;
-      position: absolute;
-    }
-
-    #playn-root {
-      margin-top: 1px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 800px;
-      height: 600px;
-      visibility: hidden;
-      position: relative;
-    }
-
-    #log {
-      margin: 20px;
-      color: #06de88;
-      bottom: 0%;
-      position: fixed;
-      visibility: visible;
-    }
-
-    #download_dialog {
-      margin: 20px;
-      bottom: 30%;
-      position: fixed;
-      visibility: visible;
-
-    }
-  </style>
+  <link rel="stylesheet" href="./Assets/CSS/stylesheet.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
 </head>
 
 <body>
@@ -85,7 +42,7 @@
     <tt>
       Play Quake II:<br>
     </tt>
-    <input type="hidden" id="source_url" size="100" value="./Quake2.exe">
+    <input type="hidden" id="source_url" size="100" value="./Quake2.zip">
 
     <script>
       function trash() {
@@ -151,12 +108,12 @@
 </pre>
   <div id="log-bottom"></div>
   <div id='playn-root'></div>
-  <script src="./lib/idb.filesystem.js"></script>
-  <script src="./lib/zip.js"></script>
-  <script src="./lib/zip-ext.js"></script>
-  <script src="./lib/inflate.js"></script>
-  <script src="./download.js"></script>
-  <script src="./PlayNQuake/PlayNQuake.nocache.js"></script>
+  <script src="./Assets/JS/idb.filesystem.js"></script>
+  <script src="./Assets/JS/zip.js"></script>
+  <script src="./Assets/JS/zip-ext.js"></script>
+  <script src="./Assets/JS/inflate.js"></script>
+  <script src="./Assets/JS/download.js"></script>
+  <script src="./Assets/JS/PlayNQuake.nocache.js"></script>
 </body>
 
 </html>

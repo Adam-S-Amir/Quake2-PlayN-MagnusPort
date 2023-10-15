@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+body {
+    background-color: #000;
+    color: #ddd;
+    border: 0;
+    margin: 0;
+}
+
+#splash {
+    color: #ddd;
+    border: 0;
+    margin: 20px;
+    padding: 0;
+    position: absolute;
+}
+
+#playn-root {
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 600px;
+    visibility: hidden;
+    position: relative;
+}
+
+#log {
+    margin: 20px;
+    color: #06de88;
+    bottom: 0%;
+    position: fixed;
+    visibility: visible;
+}
+
+#download_dialog {
+    margin: 20px;
+    bottom: 30%;
+    position: fixed;
+    visibility: visible;
+
+}
