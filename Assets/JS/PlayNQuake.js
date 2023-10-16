@@ -48212,7 +48212,7 @@
       gl_particle_att_a = Get('gl_particle_att_a', '0.01', 1);
       gl_particle_att_b = Get('gl_particle_att_b', '0.0', 1);
       gl_particle_att_c = Get('gl_particle_att_c', '0.01', 1);
-      gl_modulate = Get('gl_modulate', '2', 1);
+      gl_modulate = Get('gl_modulate', '3', 1);
       gl_log = Get('gl_log', '0', 0);
       Get('gl_bitdepth', '0', 0);
       gl_mode = Get('gl_mode', '3', 1);
