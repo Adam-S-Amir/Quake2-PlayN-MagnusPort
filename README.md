@@ -37,3 +37,4 @@ For the more avid readers, here is a more indepth look at the additions Magnus m
 - [ ] Add multiplayer support.
 - [ ] Add back .pak1 and .pak2 files.
 - [ ] Fix lighting.
+- [ ] Switch from persistent file system to BrowserFS
