@@ -1,4 +1,4 @@
-Live Demo: https://adamtrex.azurewebsites.net/index.html
+Live Demo: https://magnusware.vercel.app/index.html
 
 Partial credit goes to the original source port creators: https://github.com/stefanhaustein/quake2-playn-port
 
