@@ -26,4 +26,4 @@ Big changes made:
 - [ ] Fix lighting
 - [ ] Add ```.pak1``` & ```.pak2```
 - [ ] Multiplayer support
-- [ ] Migrate from ```File System Access API``` to ```BrowserFS```
+- [ ] Migrate from ```FileSystem JS API``` to ```BrowserFS```
