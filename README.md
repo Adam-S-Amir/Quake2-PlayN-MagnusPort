@@ -1,40 +1,29 @@
-Live Demo: https://magnusware.vercel.app/index.html
+[Live Demo](https://magnusware.vercel.app/index.html)
 
-Partial credit goes to the original source port creators: https://github.com/stefanhaustein/quake2-playn-port
+Partial credit goes to the [original source](https://github.com/stefanhaustein/quake2-playn-port) creators.
 
-Welcome to the home of the worlds first FULL VERSION of Quake II running on the web! This, unlike every other port, runs the PC files, and isn't an emulation of Quake II for the N64. 
+Welcome to the worlds first FULL VERSION of Quake II running on the web! This, unlike every other port, runs the PC files, and isn't an emulation of Quake II for the N64. This PROJECT is STRICTLY for educational purposes. I left my goofy Xbox name in the repo title to make this more difficult to find.
 
-This project was first started by Stefan Haustein and worked for a little while until at some point in time it broke. Later Magnus Marks (my xbox name lol) fixed it, and since that moment, Magnus wasn't able to figure out how to make a full port.
+This project was first started by Stefan Haustein and worked for a little while until at some point in time it broke. 
 
-One morning, on 12/21/2022 @ 12pm Magnus had an itch.He dug deeper and deeper into this seemingly endless rabbit hole. Most of his work had nothing to do with code, it was simply getting the files in order. Thus the birth of the PlayN-Quake-II-Magnus-Port.
+[INITIAL CONTACT](https://groups.google.com/g/quake2-gwt-port/c/bfQMfbMc41k)
 
-**MAGNUS HAS LEGALLY BOUGHT QUAKE 2, THIS PROJECT IS FOR EDUCATIONAL PURPOSES ONLY!**
+February 2021, I fixed the audio, file fetching, and zip API. After I'd made those changes, I wasn't able to figure out how to make a full port. 12/21/2022 @ 12pm I had an itch. Ended up going down a rabbit hole of outdated software to simply get the files in order. Finally got it to run and have been "perfecting" it since.
 
-For the more avid readers, here is a more indepth look at the additions Magnus made:
+**MUST I RESTATE THIS AGAIN, THIS PROJECT IS FOR EDUCATIONAL PURPOSES ONLY!**
 
-> The original source code was added to the project.
-
-> Magnus created download.js.
-
-> Magnus added the following:
-- E635C924D74AFB6527B814C542FC5B1C.cache.html.
-- PlayNQuake.nocache.js.
-- PlayNQuake.js (correcting audio issues, setting initial spawn map, enabling save and load states).
-
-> Magnus edited original HTML file.
-
-> Magnus has done the following with the Quake2.EXE file:
-- Changed it from .EXE to .ZIP
+Big changes made:
+- Created ```E635C924D74AFB6527B814C542FC5B1C.cache.html```
+- Created ```PlayNQuake.nocache.js```
+- Created ```PlayNQuake.js``` (correcting audio issues, setting initial spawn map, enabling save and load states, etc.)
+- Reformatted ```index.html```
+- Changed game from ```.EXE``` to ```.ZIP```
   - Compresses better, runs faster, don't need 20+ year old software
-  - Ngl the most difficult part of this was getting the .EXE small enough to fit on my website.
-- Deleted all unnecessary files.
 - Added Quake 2 game assets.
-- Edited config file to better suit usage hosted on a website.
-- Deleted .pak1 and .pak2 files.
+- Edited config file to better suit web app usage
 
-*Here are some other things Magnus would like to add to this project:*
-
-- [ ] Add multiplayer support.
-- [ ] Add back .pak1 and .pak2 files.
-- [ ] Fix lighting.
-- [ ] Switch from persistent file system to BrowserFS
+*Here are some other things I would like to add to this project (whenever i can find time🗿):*
+- [ ] Fix lighting
+- [ ] Add ```.pak1``` & ```.pak2```
+- [ ] Multiplayer support
+- [ ] Migrate from ```File System Access API``` to ```BrowserFS```
